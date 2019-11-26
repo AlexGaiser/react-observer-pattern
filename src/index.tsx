@@ -1,8 +1,13 @@
+import 'milligram'
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import observableBase from './observables/observable.hook';
+
+
+observableBase.start()
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
