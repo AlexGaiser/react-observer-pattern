@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import observableBase from './observables/observable.hook';
+import observableBase from './observables/observable.base';
 
 
 observableBase.start()

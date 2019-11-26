@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {useEffect, useState} from 'react'
-import observableBase, { IObserver } from './observables/observable.hook';
+import observableBase, { IObserver } from './observables/observable.base';
 import Home from './components/Home';
 import Dashboard from './components/Dashboard';
 

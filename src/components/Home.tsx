@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react'
-import observableBase from '../observables/observable.hook'
+import observableBase from '../observables/observable.base'
 
 export default function Home() {
 
